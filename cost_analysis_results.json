@@ -1,0 +1,61 @@
+{
+  "analysis": {
+    "comparison_date": "2025-08-31",
+    "periods": {
+      "3_months": {
+        "school_insurance": 1000,
+        "kimber_insurance": 375,
+        "savings_with_kimber": 625,
+        "savings_percentage": 62.5
+      },
+      "6_months": {
+        "school_insurance": 2000,
+        "kimber_insurance": 750,
+        "savings_with_kimber": 1250,
+        "savings_percentage": 62.5
+      },
+      "12_months": {
+        "school_insurance": 4000,
+        "kimber_insurance": 1500,
+        "savings_with_kimber": 2500,
+        "savings_percentage": 62.5
+      }
+    },
+    "scenarios": {
+      "no_medical_needs": {
+        "description": "无医疗需求",
+        "school_cost": 1000,
+        "kimber_cost": 375
+      },
+      "one_emergency": {
+        "description": "一次急诊",
+        "school_cost": 1300,
+        "kimber_cost": 375
+      },
+      "monthly_checkup": {
+        "description": "每月体检",
+        "school_cost": 1000,
+        "kimber_cost": 675
+      },
+      "out_of_state_emergency": {
+        "description": "州外急诊",
+        "school_cost": 2300.0,
+        "kimber_cost": 475
+      }
+    },
+    "risk_adjusted": {
+      "expected_cost_school": 1026.25,
+      "expected_cost_kimber": 375.0,
+      "expected_savings": 651.25
+    }
+  },
+  "recommendation": {
+    "recommendation": "强烈推荐Kimber旅行保险",
+    "confidence": "高",
+    "primary_reasons": [
+      "3个月节省$625",
+      "完美匹配跨州需求",
+      "支付灵活性高"
+    ]
+  }
+}
